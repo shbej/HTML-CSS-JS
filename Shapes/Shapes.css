@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 15px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+div.rectangle {
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+div.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(233, 117, 8);
+    color: rgb(31, 29, 29);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+div.round {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: green;
+    border-style: groove;
+    color: rgb(31, 29, 29);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* div.triangle {
+    width: 0px;
+    height: 0px;
+    border-top: 60px solid aquamarine;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+} */
+
+div.triangle {
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 0 100px 173.2px 100px;
+    border-color: transparent transparent aquamarine transparent;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.triangle p {
+  text-align: center;
+  top: 80px;
+  left: -47px;
+  position: relative;
+  width: 93px;
+  height: 93px;
+  margin: 0px;
+  color:black;
+}
+
+
+div.trapezoid {
+    width: 100px;
+    height: 0px;
+    background-color: white;
+    border-right: 40px solid  transparent;
+    border-bottom: 100px solid rgb(120, 16, 151);
+    border-left: 40px solid  transparent;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.trapezoid p {
+    text-align: center;
+    top: 20px;
+    position: relative;
+    width: 90px;
+    height: 63px;
+    margin: 0px;
+    color: white;
+  }
+
+div.parallelogram {
+    width: 150px;
+    height: 150px;
+    transform: skew(15deg);
+    background-color: rgb(226, 68, 63);
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
