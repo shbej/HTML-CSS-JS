@@ -1,0 +1,30 @@
+* {
+    margin: 15px;
+    padding: 0;
+    font-size: 20px;
+}
+
+.animation  {
+    width: 80px;
+    height: 80px;
+    color: whitesmoke;
+    text-align: center;
+    background-color: cadetblue;
+    animation-name: background-color-animation;
+}
+
+.animation:hover {
+    animation-name: background-color-animation;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes background-color-animation {
+    0% {background-color: cadetblue; width: 80px; height: 80px;}
+    25% {background-color: rgb(75, 156, 221); width: 100px; height: 100px;}
+    50% {background-color: rgb(64, 129, 226); width: 120px; height: 120px;}
+    75% {background-color: rgb(10, 77, 136); width: 140px; height: 140px;}
+    100% {background-color: blue; width: 160px; height: 160px;}
+}
